@@ -116,7 +116,7 @@ btn9=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
 
 Addition=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="+", bg="grey", command=lambda: btnClick("+")).grid(row=2,column=3)
-#================================================================================================
+#=================================Calculator Buttons Part-1===============================================================
 btn4=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="4", bg="grey", command=lambda: btnClick(4)).grid(row=3,column=0)
 
@@ -128,7 +128,7 @@ btn6=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
 
 Subtraction=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="-", bg="grey", command=lambda: btnClick("-")).grid(row=3,column=3)
-#=================================================================================================
+#=========================================Calculator Buttons Part-2========================================================
 btn1=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="1", bg="grey", command=lambda: btnClick(1)).grid(row=4,column=0)
 
@@ -140,7 +140,7 @@ btn3=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
 
 Multiply=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="*", bg="grey", command=lambda: btnClick("*")).grid(row=4,column=3)
-#==================================================================================================
+#=========================================Calculator Buttons Part-3=========================================================
 btn0=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="0", bg="grey", command=lambda: btnClick(0)).grid(row=5,column=0)
 
@@ -152,7 +152,7 @@ btnEquals=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
 
 btn7=Button(f2,padx=16,pady=16,bd=8, fg="brown3", font=('Times 20 bold'),
             text="/", bg="grey",command=lambda: btnClick("/")).grid(row=5,column=3)
-#============================Restaurant Info 1======================================================================
+#============================Information 1======================================================================
 rand = StringVar()
 French_Fries = StringVar()
 Burger = StringVar()
@@ -201,7 +201,7 @@ lblVeg_Thaali.grid(row=5,column=0)
 txtVeg_Thaali=Entry(f1,font=('Times 18 bold'), textvariable=Veg_Thaali, bd=10, insertwidth=4,
                    bg="#ffffff", justify = 'right')
 txtVeg_Thaali.grid(row=5,column=1)
-#============================Restaurant Info 2======================================================================
+#============================Information 2======================================================================
 lblCold_Drinks = Label(f1,font=('Times 18 bold'), text="Cold Drinks(30)", fg="brown3", bd=16, bg="gray25", anchor='w')
 lblCold_Drinks.grid(row=0,column=2)
 txtCold_Drinks=Entry(f1,font=('Times 18 bold'), textvariable=Cold_Drinks, bd=10, insertwidth=4,
@@ -237,7 +237,7 @@ lblTotal_Cost.grid(row=5,column=2)
 txtTotal_Cost=Entry(f1,font=('Times 18 bold'), textvariable=Total_Cost, bd=10, insertwidth=4,
                    bg="#ffffff", justify = 'right')
 txtTotal_Cost.grid(row=5,column=3)
-#===========================Buttons=======================================================================
+#===========================Buttons At The Bottom in GUI=======================================================================
 btnTotal=Button(f1,padx=16,pady=8, bd=16, fg="Black",font=('Times 18 bold'), width=10,
                 text="Total", bg="Grey", command = Ref).grid(row=7, column=1)
 
